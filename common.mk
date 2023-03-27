@@ -9,7 +9,7 @@ CC = ${CROSS_COMPILE}gcc
 LD = ${CXX}
 LDFLAGS =
 LDLIBS =
-flags = -march=armv7-a -mfpu=neon -mfloat-abi=hard -mthumb
+flags = -march=armv7-a -mfpu=neon -mfloat-abi=soft -mthumb
 CFLAGS = ${flags}
 CXXFLAGS = ${flags}
 CPPFLAGS = -I . -I include
