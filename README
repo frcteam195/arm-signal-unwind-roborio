@@ -7,7 +7,7 @@ reliably possible if:
 The v1 signal frame format (kernels 2.6.16 and 2.6.17) isn't supported.
 
 Usage:
-  make unwind_sigreturn.o CROSS_COMPILE=arm-frc2023-linux-gnueabi- flags=-mfloat-abi=soft
+  make unwind_sigreturn.o CROSS_COMPILE=arm-frc2023-linux-gnueabi-
 and link the resulting object into your application or library.
 
 
